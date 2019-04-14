@@ -3,7 +3,7 @@ package router
 import (
 	"math/rand"
 
-	"gitee.com/lwj8507/light-protoactor-go/actor"
+	"github.com/hei6775/light-protoactor-go/actor"
 )
 
 type randomGroupRouter struct {

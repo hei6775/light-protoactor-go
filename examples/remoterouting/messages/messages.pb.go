@@ -3,7 +3,7 @@ package messages
 import proto "github.com/gogo/protobuf/proto"
 import fmt "fmt"
 import math "math"
-import _ "gitee.com/lwj8507/light-protoactor-go/actor"
+import _ "github.com/hei6775/light-protoactor-go/actor"
 
 import strings "strings"
 import github_com_gogo_protobuf_proto "github.com/gogo/protobuf/proto"

@@ -6,7 +6,7 @@ import (
 
 	"time"
 
-	"gitee.com/lwj8507/light-protoactor-go/actor"
+	"github.com/hei6775/light-protoactor-go/actor"
 )
 
 // process serves as a proxy to the router implementation and forwards messages directly to the routee. This

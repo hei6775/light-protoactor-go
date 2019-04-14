@@ -1,6 +1,6 @@
 package actor
 
-import "gitee.com/lwj8507/light-protoactor-go/eventstream"
+import "github.com/hei6775/light-protoactor-go/eventstream"
 
 // DeciderFunc is a function which is called by a SupervisorStrategy
 type DeciderFunc func(reason interface{}) Directive

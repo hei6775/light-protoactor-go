@@ -3,8 +3,8 @@ package main
 import (
 	"sync"
 
-	"gitee.com/lwj8507/light-protoactor-go/actor"
-	"gitee.com/lwj8507/light-protoactor-go/examples/remoterouting/messages"
+	"github.com/hei6775/light-protoactor-go/actor"
+	"github.com/hei6775/light-protoactor-go/examples/remoterouting/messages"
 
 	"log"
 )

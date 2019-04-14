@@ -1,8 +1,8 @@
 package mailbox
 
 import (
-	"gitee.com/lwj8507/light-protoactor-go/internal/queue/goring"
-	"gitee.com/lwj8507/light-protoactor-go/internal/queue/mpsc"
+	"github.com/hei6775/light-protoactor-go/internal/queue/goring"
+	"github.com/hei6775/light-protoactor-go/internal/queue/mpsc"
 )
 
 type unboundedMailboxQueue struct {

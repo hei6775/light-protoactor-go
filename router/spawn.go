@@ -1,7 +1,7 @@
 package router
 
 import (
-	"gitee.com/lwj8507/light-protoactor-go/actor"
+	"github.com/hei6775/light-protoactor-go/actor"
 )
 
 func spawn(id string, config RouterConfig, props *actor.Props, parent *actor.PID) (*actor.PID, error) {

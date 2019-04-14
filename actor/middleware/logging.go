@@ -4,7 +4,7 @@ import (
 	"log"
 	"reflect"
 
-	"gitee.com/lwj8507/light-protoactor-go/actor"
+	"github.com/hei6775/light-protoactor-go/actor"
 )
 
 // logger is message middleware which logs messages before continuing to the next middleware

@@ -1,6 +1,6 @@
 package actor
 
-import "gitee.com/lwj8507/light-protoactor-go/mailbox"
+import "github.com/hei6775/light-protoactor-go/mailbox"
 
 //An AutoReceiveMessage is a special kind of user message that will be handled in some way automatially by the actor
 type AutoReceiveMessage interface {

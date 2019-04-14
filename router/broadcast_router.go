@@ -1,6 +1,6 @@
 package router
 
-import "gitee.com/lwj8507/light-protoactor-go/actor"
+import "github.com/hei6775/light-protoactor-go/actor"
 
 type broadcastGroupRouter struct {
 	GroupRouter

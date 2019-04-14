@@ -1,4 +1,4 @@
-PACKAGE_PATH=gitee.com/lwj8507/light-protoactor-go
+PACKAGE_PATH=github.com/hei6775/light-protoactor-go
 WORK_DIR=$(shell pwd)
 ########################################################################################################################
 .PHONY: glide-up zip-vendor unzip-vendor

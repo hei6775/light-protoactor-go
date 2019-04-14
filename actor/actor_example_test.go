@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"gitee.com/lwj8507/light-protoactor-go/actor"
+	"github.com/hei6775/light-protoactor-go/actor"
 )
 
 // Demonstrates how to create an actor using a function literal and how to send a message asynchronously

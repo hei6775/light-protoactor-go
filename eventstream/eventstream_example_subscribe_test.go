@@ -3,7 +3,7 @@ package eventstream_test
 import (
 	"fmt"
 
-	"gitee.com/lwj8507/light-protoactor-go/eventstream"
+	"github.com/hei6775/light-protoactor-go/eventstream"
 )
 
 // Subscribe subscribes to events

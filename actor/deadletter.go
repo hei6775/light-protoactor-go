@@ -1,7 +1,7 @@
 package actor
 
 import (
-	"gitee.com/lwj8507/light-protoactor-go/eventstream"
+	"github.com/hei6775/light-protoactor-go/eventstream"
 )
 
 type deadLetterProcess struct{}

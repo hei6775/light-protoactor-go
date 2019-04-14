@@ -1,4 +1,4 @@
-package: gitee.com/lwj8507/light-protoactor-go
+package: github.com/hei6775/light-protoactor-go
 import:
 - package: gitee.com/lwj8507/nggs
   subpackages:

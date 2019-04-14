@@ -6,7 +6,7 @@ import (
 
 	mylog "gitee.com/lwj8507/nggs/log"
 
-	"gitee.com/lwj8507/light-protoactor-go/internal/queue/mpsc"
+	"github.com/hei6775/light-protoactor-go/internal/queue/mpsc"
 )
 
 type Statistics interface {

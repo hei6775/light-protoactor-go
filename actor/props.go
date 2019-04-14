@@ -1,6 +1,6 @@
 package actor
 
-import "gitee.com/lwj8507/light-protoactor-go/mailbox"
+import "github.com/hei6775/light-protoactor-go/mailbox"
 
 // Props represents configuration to define how an actor should be created
 type Props struct {

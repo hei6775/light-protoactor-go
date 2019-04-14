@@ -1,6 +1,6 @@
 package actor
 
-import "gitee.com/lwj8507/light-protoactor-go/eventstream"
+import "github.com/hei6775/light-protoactor-go/eventstream"
 
 type optionFn func()
 

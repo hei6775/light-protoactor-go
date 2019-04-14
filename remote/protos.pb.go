@@ -21,7 +21,7 @@ import proto "github.com/gogo/protobuf/proto"
 import fmt "fmt"
 import math "math"
 import _ "github.com/gogo/protobuf/gogoproto"
-import actor "gitee.com/lwj8507/light-protoactor-go/actor"
+import actor "github.com/hei6775/light-protoactor-go/actor"
 
 import bytes "bytes"
 

@@ -2,7 +2,7 @@ syntax = "proto3";
 package remote;
 
 import "github.com/gogo/protobuf/gogoproto/gogo.proto";
-import "gitee.com/lwj8507/light-protoactor-go/actor/protos.proto";
+import "github.com/hei6775/light-protoactor-go/actor/protos.proto";
 
 option (gogoproto.gostring_all) = false;
 

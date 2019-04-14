@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/AsynkronIT/goconsole"
-	"gitee.com/lwj8507/light-protoactor-go/actor"
+	"github.com/hei6775/light-protoactor-go/actor"
 )
 
 type hello struct{ Who string }

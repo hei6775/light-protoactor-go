@@ -3,8 +3,8 @@ package main
 import (
 	"runtime"
 
-	"gitee.com/lwj8507/light-protoactor-go/actor"
-	"gitee.com/lwj8507/light-protoactor-go/remote"
+	"github.com/hei6775/light-protoactor-go/actor"
+	"github.com/hei6775/light-protoactor-go/remote"
 
 	"github.com/AsynkronIT/goconsole"
 )

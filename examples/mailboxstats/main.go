@@ -4,8 +4,8 @@ import (
 	"log"
 
 	console "github.com/AsynkronIT/goconsole"
-	"gitee.com/lwj8507/light-protoactor-go/actor"
-	"gitee.com/lwj8507/light-protoactor-go/mailbox"
+	"github.com/hei6775/light-protoactor-go/actor"
+	"github.com/hei6775/light-protoactor-go/mailbox"
 )
 
 type mailboxLogger struct{}

@@ -5,10 +5,10 @@ import (
 	"runtime"
 
 	"github.com/AsynkronIT/goconsole"
-	"gitee.com/lwj8507/light-protoactor-go/actor"
-	"gitee.com/lwj8507/light-protoactor-go/examples/remotebenchmark/messages"
-	"gitee.com/lwj8507/light-protoactor-go/mailbox"
-	"gitee.com/lwj8507/light-protoactor-go/remote"
+	"github.com/hei6775/light-protoactor-go/actor"
+	"github.com/hei6775/light-protoactor-go/examples/remotebenchmark/messages"
+	"github.com/hei6775/light-protoactor-go/mailbox"
+	"github.com/hei6775/light-protoactor-go/remote"
 )
 
 func main() {
