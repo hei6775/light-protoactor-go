@@ -1,0 +1,115 @@
+hash: 5e5f1862ee69a743b457ee865118709d54b972b0aa053d77752d41cfa3b25770
+updated: 2017-10-13T14:56:01.6486878+08:00
+imports:
+- name: gitee.com/lwj8507/nggs
+  version: 6c1feac90345429116d0363672b8f320e6f69d78
+  subpackages:
+  - log
+  - util
+- name: github.com/astaxie/beego
+  version: cab8458c1c4a5a3b4bf5192922be620e6dede15b
+  subpackages:
+  - logs
+- name: github.com/AsynkronIT/goconsole
+  version: bfa12eebf7161a928e20d11a627cc689e99e2e50
+- name: github.com/emirpasic/gods
+  version: f6c17b524822278a87e3b3bd809fec33b51f5b46
+  subpackages:
+  - containers
+  - lists
+  - lists/singlylinkedlist
+  - sets
+  - sets/hashset
+  - stacks
+  - stacks/linkedliststack
+  - utils
+- name: github.com/gogo/protobuf
+  version: 100ba4e885062801d56799d78530b73b178a78f3
+  repo: https://gitee.com/mygodep/gogo-protobuf.git
+  subpackages:
+  - gogoproto
+  - proto
+  - protoc-gen-gogo/descriptor
+- name: github.com/golang/protobuf
+  version: 130e6b02ab059e7b717a096f397c5b60111cae74
+  repo: https://gitee.com/mygodep/protobuf.git
+  subpackages:
+  - jsonpb
+  - proto
+  - protoc-gen-go/descriptor
+  - protoc-gen-go/plugin
+  - ptypes/any
+- name: github.com/orcaman/concurrent-map
+  version: 2ae17bc4c860c83513ee50feb9746f3e50d7515d
+- name: github.com/serialx/hashring
+  version: 6a9381c5a83e926b9f1fd907395a581e69747e96
+- name: github.com/tealeg/xlsx
+  version: 8be35264fa75a1bbe954ce51eba04f273e2c59e5
+- name: github.com/Workiva/go-datastructures
+  version: b9547a38b81ee66409d34781495d771dfa1e7e41
+  subpackages:
+  - queue
+- name: golang.org/x/net
+  version: 66aacef3dd8a676686c7ae3716979581e8b03c47
+  repo: https://gitee.com/mygodep/net.git
+  subpackages:
+  - context
+  - http2
+  - http2/hpack
+  - idna
+  - internal/timeseries
+  - lex/httplex
+  - trace
+- name: golang.org/x/text
+  version: bd91bbf73e9a4a801adbfb97133c992678533126
+  repo: https://gitee.com/mygodep/text.git
+  subpackages:
+  - secure/bidirule
+  - transform
+  - unicode/bidi
+  - unicode/norm
+- name: google.golang.org/genproto
+  version: f676e0f3ac6395ff1a529ae59a6670878a8371a6
+  repo: https://gitee.com/mygodep/go-genproto.git
+  subpackages:
+  - googleapis/rpc/status
+- name: google.golang.org/grpc
+  version: b3ddf786825de56a4178401b7e174ee332173b66
+  repo: https://gitee.com/mygodep/grpc-go.git
+  subpackages:
+  - balance
+  - codes
+  - connectivity
+  - credentials
+  - examples/helloworld/helloworld
+  - examples/route_guide/routeguide
+  - grpc_lb
+  - grpclb/grpc_lb_v1
+  - grpclog
+  - internal
+  - keepalive
+  - metadata
+  - naming
+  - peer
+  - reflection
+  - resolver
+  - stats
+  - status
+  - tap
+  - transport
+testImports:
+- name: github.com/davecgh/go-spew
+  version: 6d212800a42e8ab5c146b8ace3490ee17e5225f9
+  subpackages:
+  - spew
+- name: github.com/pmezard/go-difflib
+  version: d8ed2627bdf02c080bf22230dbb337003b7aba2d
+  subpackages:
+  - difflib
+- name: github.com/stretchr/objx
+  version: cbeaeb16a013161a98496fad62933b1d21786672
+- name: github.com/stretchr/testify
+  version: 69483b4bd14f5845b5a1e55bca19e954e827f1d0
+  subpackages:
+  - assert
+  - mock

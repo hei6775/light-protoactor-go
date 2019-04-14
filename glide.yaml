@@ -1,0 +1,51 @@
+package: gitee.com/lwj8507/light-protoactor-go
+import:
+- package: gitee.com/lwj8507/nggs
+  subpackages:
+  - log
+- package: github.com/AsynkronIT/goconsole
+- package: github.com/Workiva/go-datastructures
+  version: v1.0.39
+  subpackages:
+  - queue
+- package: github.com/emirpasic/gods
+  version: v1.9.0
+  subpackages:
+  - sets/hashset
+  - stacks/linkedliststack
+- package: github.com/gogo/protobuf
+  version: v0.4
+  repo: https://gitee.com/mygodep/gogo-protobuf.git
+  subpackages:
+  - gogoproto
+  - proto
+- package: github.com/orcaman/concurrent-map
+- package: github.com/serialx/hashring
+- package: golang.org/x/net
+  version: master
+  repo: https://gitee.com/mygodep/net.git
+  subpackages:
+  - context
+  - http2
+  - http2/hpack
+  - internal/timeseries
+  - trace
+- package: google.golang.org/grpc
+  version: v1.5.2
+  repo: https://gitee.com/mygodep/grpc-go.git
+  subpackages:
+  - balance
+  - connectivity
+  - credentials
+  - examples/helloworld/helloworld
+  - examples/route_guide/routeguide
+  - grpc_lb
+  - grpclog
+  - reflection
+  - resolver
+testImport:
+- package: github.com/stretchr/testify
+  version: v1.1.4
+  subpackages:
+  - assert
+  - mock
